@@ -1,0 +1,21 @@
+{
+  "name": "optional-chaining",
+  "version": "1.0.0",
+  "description": "babel-plugin",
+  "main": "demo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "babel ./demo.js --watch --out-file demo.babel.js"
+  },
+  "author": "hxj <974153916@qq.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.1.6",
+    "@babel/helper-plugin-utils": "^7.0.0",
+    "@babel/plugin-proposal-optional-chaining": "^7.0.0",
+    "@babel/plugin-syntax-optional-chaining": "^7.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.1.5"
+  }
+}
